@@ -1,0 +1,77 @@
+/*CSS for styling the navigation menu*/
+body{
+    background-image: url(image.png);
+    background-size:cover;
+    background-position: center;
+}
+    nav{
+    color:#fff;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+
+}
+nav ul li a{
+    color: rgb(5, 24, 65);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+}
+nav ul li a:hover{
+    background: #fff;
+}
+h3{
+    text-align: center;
+    background-size: center;
+}
+h4{
+    text-align: center;
+    background-size: center;
+}
+section 
+{
+    text-align: right;
+}
+section h2 {
+    letter-spacing: 1px;
+
+}
+input{
+    border-radius: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+footer a {
+    position: center;
+    color:#fff;
+    font-size: 50px;
+}
+footer a:not(:last-child){
+    margin-right: 100px;
+}
+footer a:hover {
+    transform: scale(1.5);
+}
+footer{
+    background-color: #3c12a6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
